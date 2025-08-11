@@ -1,0 +1,35 @@
+For a tourism or tourist package website, you typically need the following pages:
+
+1. Home
+2. About Us
+3. Country Tours
+3. City Tours
+4. Individual Package Details
+5. Booking / Reservation
+6. Contact Us
+7. Gallery (optional)
+8. Testimonials / Reviews (optional)
+9. FAQ (optional)
+10. Terms & Conditions / Privacy Policy
+
+You can adjust or add pages based on your specific requirements.
+
+Pehly structure or responsivity ko karna hai phir bad mein css or theme ko dekhna hai
+
+ cards ka inner structre
+
+Clone structure website https://naturehikepakistan.pk/
+Clone structure website https://naturehikepakistan.pk/
+<span style="color: red; font-weight: lighter; font-size: xxx-large;">|</span>
+<img src="./images/line.png" style="height: 50px; width: 30px;" alt="">
+
+h1 = title 
+h2 = heading 
+h3 = sub - headings
+
+First style the home page and then make the logo in the navbar
+
+edit family tour section
+give points to it and a subtitle below heaing and a button CTA and a hover effect when hover on picture and change the cureent picutre later
+add hover line effect on nav links and footer
+add animation color to navbar

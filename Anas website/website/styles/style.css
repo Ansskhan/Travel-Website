@@ -1,0 +1,584 @@
+/* === Universal styles starts === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    overflow-x: hidden;
+}
+.logoB{
+    
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #388e3c;
+    border-radius: 150px;
+}
+/* card tags */
+
+.card-tags {}
+
+/* card tags end */
+/* === Universal styles ends === */
+
+
+
+/* === Navbar starts === */
+.nav-title {
+    color: blue;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    /* height: 65px; */
+}
+
+/* .navbar .navbar-collapse {
+        background-color: lightslategrey;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 5px;
+    } */
+
+.navbar .nav-item .nav-link {
+    color: aliceblue;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: lightsteelblue;
+}
+
+.navbar .navbar-brand:hover {
+    color: lightcyan;
+}
+
+.navbar-collapse {
+    width: 60vw;
+}
+
+.center {
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body {
+    padding-top: 56px;
+}
+
+/* === Navbar ends === */
+
+
+
+/* === Home section starts === */
+.carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide img {
+    height: 400px;
+}
+
+.slider-title {
+    position: absolute;
+    color: yellow;
+    z-index: 10;
+    pointer-events: none;
+    /* border: 2px solid black; */
+}
+
+.slider-subtitle {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-top: 5px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.Home {
+    display: flex;
+    flex-direction: column;
+}
+
+.Gallery .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90vw;
+}
+
+.Gallery .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+}
+
+.Gallery .card {
+    width: 350px;
+    height: 300px;
+    min-width: 300px;
+    display: flex;
+    /* for text center*/
+    justify-content: center;
+    align-items: center;
+    /* background-color: red;
+    border: 1px solid red; */
+    border-radius: 25px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.Gallery .card img {
+    object-fit: cover;
+    transform: scale(1);
+    transition: transform 2s ease-in-out;
+}
+
+.Gallery .card:hover img {
+    transform: scale(1.15);
+}
+
+.Gallery .card .place-title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* left: 80px;
+    bottom: 120px; */
+
+}
+
+
+.card img {
+    border-radius: 20px;
+}
+
+.card p {
+    font-size: small;
+}
+
+/* Family section */
+
+.fam {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fam img {
+    width: 500px;
+    height: 500px;
+}
+
+.fam .sect2 ul {
+    /* border: 2px solid green; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+
+.sect2 {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sect2 h2 {
+    margin-bottom: -5px;
+}
+
+.sect2 h3 {
+    font-size: large;
+    margin-top: 25px;
+}
+
+.sect2 ul li {
+    margin-bottom: -11px;
+    font-size: larger;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: 2px solid red; */
+    /* margin-top: -15px; */
+}
+
+.sect2 ul hr {
+    margin-bottom: -1px;
+    margin-top: 14px;
+    width: 250px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.fam ul li {
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.fam ul li:hover {
+    transform: translate(30px);
+}
+
+/* family section end */
+
+.sec3 h5 {
+    font-weight: 400;
+}
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec3 .container {
+    width: 70vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sec3 .container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sec3 li i {
+    padding-left: 10px;
+}
+
+/* === Home section ends === */
+
+/* location */
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    padding: 40px;
+}
+
+.location div {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.location div iframe {
+    height: 60vh;
+    width: 60vw;
+}
+
+/* location  end */
+
+
+
+/* === Footer section starts === */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer hr {
+    width: 90vw;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer .foot-sect hr {
+    width: 280px;
+    margin-top: -8px;
+    height: 2px;
+    background-color: #E6F4F9;
+}
+.foot-links {
+    font-weight: 400;
+    /* color: #207eb4; */
+    /* Default text color */
+    text-decoration: none;
+    /* Remove default underline */
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.foot-links:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  transition: width 0.5s ease
+}
+
+.foot-links:hover {
+  transform: translateX(20px)
+}
+footer .foot-links:hover::after {
+  width: 100%;                /* Underline expands smoothly */
+}
+
+.foot-sect {
+    margin-bottom: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot-headings {
+    margin-bottom: 10px;
+}
+
+.cont-box {
+    margin-bottom: 10px;
+}
+
+.cont-box div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.cont-box div .icons {
+    margin-right: 8px;
+    font-size: large;
+}
+
+/* === Footer section ends === */
+
+
+
+/* === Weekly Tours section starts === */
+.week-tours {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100vw;
+}
+
+.week-tours .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.week-tours .row .card {
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    width: 300px;
+    height: 250px;
+    border: none;
+}
+
+.week-tours .row .card-text {
+    margin-top: -15px;
+}
+
+.week-tours .card img {
+    height: 200px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.486);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.week-tours .card img:hover {
+    filter: brightness(1) saturate(2);
+    transform: scale(1.05);
+}
+
+.Gallery .card {
+    background: gray;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    /* x, y, blur, color */
+}
+
+.Gallery .card:hover {
+    box-shadow: 0 0 15px black;
+}
+
+/* === Weekly Tours section ends === */
+
+
+
+/* === Section 4: How to Book a Trip starts === */
+.sec4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sec4 .row {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sec4 .row .col-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    gap: 10px;
+}
+.sec4 .col-3 img {
+    height: 60px;
+    width: 60px;
+}
+
+/* === Section 4: How to Book a Trip ends === */
+
+
+
+/* === Media Query starts === */
+@media (max-width: 768px) {
+    .fam {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .fam img {
+        width: 400px;
+        height: 400px;
+    }
+    .fam .sect2{
+        margin-top: 25px;
+    }
+    .fam .sect2 h2{
+        font-size: x-large;
+    }
+
+    .navbar {
+        /* height: 80px; */
+    }
+
+    .Gallery .place-title h2 {
+        font-size: xx-large;
+    }
+
+    .slider-title {
+        font-size: large;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .sec3 h1,
+    h2,
+    h5 {
+        font-size: larger;
+    }
+
+    .sec3 p,
+    li {
+        font-size: small;
+    }
+    .sec3 h1 {
+        font-size: xx-large;
+    }
+
+    .location div iframe {
+        height: 30vh;
+        width: 70vw;
+    }
+}
+
+/* === Media Query ends === */
+
+
+
+/* === Animations section starts === */
+@keyframes pulse-scale {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.sec4 .col-3:hover img {
+    animation: pulse-scale 2.5s ease-in-out infinite;
+}
+
+/* === Animations section ends === */
+
+
+
+/* === Transitions section starts === */
+.week-tours .card img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sec4 .row .col-3 {
+    transition-property: background-color;
+    transition: color 2.5s ease-in-out 0s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.sec4 .col-3 img {
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+/* === Transitions section ends === */
+
+    

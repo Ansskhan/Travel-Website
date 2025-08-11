@@ -1,0 +1,58 @@
+🌤 Navbar & Footer Background (Sky Mist Gradient)
+#6a9cb1 → Start of gradient (left)
+
+#8fc7e5 → End of gradient (right)
+Use in:
+
+css
+Copy
+Edit
+background: linear-gradient(90deg, #6a9cb1, #8fc7e5);
+🌿 Greens (Nature / Pakistani Inspired)
+#3c7c4c → Headings, Buttons, emphasis text
+
+#a3d9a5 → Hover states, success badges, subtle highlight
+
+#eaf8f3 → Section background, or card backgrounds
+
+🌫 Mist Backgrounds (Soft)
+#E6F4F9 → Main page background, card/light section
+
+#F1FBFD → Alternate background, subtle variation
+
+#F9FBFC → Gradient bottom for sections
+
+🌌 Accent Blues
+#4a90e2 → Links, active buttons, or CTA elements
+
+#5fb1dd → Use in light gradient blends or info areas
+
+#207eb4 → Link hover, button hover, CTA highlight
+
+🖤 Neutrals
+#222 → Main headings, high contrast
+
+#333 → Body text
+
+#f7f7f7 → Light background or form background
+
+#ccc → Borders, lines, subtle dividers
+
+🧩 Example Mapping:
+Use Area	Color	Hex Code
+Navbar/Footer BG	Gradient	#6a9cb1 → #8fc7e5
+Main Heading	Deep Green	#388e3c
+Link	Accent Blue	#4a90e2
+Link Hover	Darker Blue	#207eb4
+Body Background	Mist Blue	#E6F4F9
+Card BG	Mist Alt	#F1FBFD or #eaf8f3
+Light Gray BG	Neutral BG	#f7f7f7
+Text Body	Gray Text	#333
+Border Lines
+
+This for titles #388e3c
+this for subheadings #9dd6a3
+this for body #E6F4F9
+this for white text #EAF8F3
+this for navbar,footer linear-gradient(90deg, #63a2bd, #7bb2cf,#55bce9)
+this for button hover #55bce9 This is the theme i've selected

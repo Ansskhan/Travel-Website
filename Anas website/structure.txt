@@ -1,0 +1,62 @@
+Home (index.php)
+ ├── Featured Packages
+ └── Links → Packages, About, Contact, Login
+
+Packages (packages.php)
+ └── Package Detail (package_detail.php?id=)
+
+Booking (booking.php)
+ └── Booking Confirmation
+
+About Us (about.php)
+
+Contact (contact.php)
+
+Login (login.php) / Register (register.php) [Optional]
+
+Admin Panel (admin/) [Optional]
+ ├── Manage Packages
+ └── View Bookings
+
+
+✅ Pages
+Home: Hero, Featured Packages, About, CTA
+
+Packages: All packages with filters
+
+Package Detail: Full info & booking button
+
+Booking: Form → Save to DB → Confirmation
+
+About: Info about Torista, mission
+
+Contact: Contact form, optional map
+
+Login/Register: User accounts (optional)
+
+Admin Panel: Add/Edit/Delete packages, view bookings (optional)
+
+✅ Features
+Display packages dynamically from DB
+
+Booking system (PHP + MySQL)
+
+Search/filter packages (JS)
+
+Responsive design
+
+Optional: Login, reviews, Google Maps, email confirmations
+
+✅ Database (MySQL)
+packages: id, name, description, price, duration, location, image
+
+bookings: id, user_id, package_id, name, email, phone, date, status
+
+users: id, name, email, password (if login used)
+
+✅ Tech Stack
+HTML/CSS/JS → UI & Interactions
+
+PHP → Backend logic
+
+MySQL → Database

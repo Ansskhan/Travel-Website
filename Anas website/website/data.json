@@ -1,0 +1,102 @@
+{
+    "cards":[
+        {
+            "img" : "./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay" : "50",
+            "text":"Some text for the cards in small section"
+        },
+        {
+            "img" : "./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay" : "100",
+            "text":"Some text for the cards in small section"
+        },
+        {
+            "img" : "./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay" : "150",
+            "text":"Some text for the cards in small section"
+        },
+        {
+            "img" : "./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay" : "200",
+            "text":"Some text for the cards in small section"
+        },
+        {
+            "img" : "./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay" : "250",
+            "text":"Some text for the cards in small section"
+        },
+        {
+            "img" : "./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay" : "300",
+            "text":"Some text for the cards in small section"
+        },
+        {
+            "img" : "./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay" : "350",
+            "text":"Some text for the cards in small section"
+        },
+        {
+            "img" : "./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay" : "400",
+            "text":"Some text for the cards in small section"
+        },
+        {
+            "img" : "./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay" : "450",
+            "text":"Some text for the cards in small section"
+        },
+        {
+            "img" : "./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay" : "500",
+            "text":"Some text for the cards in small section"
+        },
+        {
+            "img" : "./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay" : "550",
+            "text":"Some text for the cards in small section"
+        },
+        {
+            "img" : "./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay" : "600",
+            "text":"Some text for the cards in small section"
+        }
+    ],
+    "bigcards":[
+        {
+            "img":"./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay":"100",
+            "title":"Hunza valley",
+            "link":"./index.html"
+        },
+        {
+            "img":"./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay":"100",
+            "title":"Hunza valley",
+            "link":"./index.html"
+        },
+        {
+            "img":"./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay":"100",
+            "title":"Hunza valley",
+            "link":"./index.html"
+        },
+        {
+            "img":"./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay":"200",
+            "title":"Hunza valley",
+            "link":"./index.html"
+        },
+        {
+            "img":"./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay":"200",
+            "title":"Hunza valley",
+            "link":"./index.html"
+        },
+        {
+            "img":"./images/Neelum-valley-aa-min-600x600 (1).jpeg",
+            "delay":"200",
+            "title":"Hunza valley",
+            "link":"./index.html"
+        }
+    ]
+}
